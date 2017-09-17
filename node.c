@@ -26,7 +26,7 @@ int getLine(FILE *fp,char line[]) {
 	int count=0;
 	while((c=fgetc(fp))!=EOF && c!='\n') {
 		line[count]=c;
-		++count;		
+		++count;	
 	}
 	return count;
 }
